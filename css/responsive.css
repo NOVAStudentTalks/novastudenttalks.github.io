@@ -2,6 +2,19 @@
   .content {
 	padding: 40% 0 0;
 	}
+
+  #tf-home{
+  	background: url(../img/bgsmall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #cfcfcf;
+  }
+
+  #tf-menu a.navbar-brand{
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 603px){
@@ -26,9 +39,12 @@ label{
 .hover-bg .hover-text {
     padding: 12% 10%;
 }
+
 }
 @media (max-width: 360px){
+
 .hover-bg .hover-text {
     padding: 22% 10%;
 }
+
 }
