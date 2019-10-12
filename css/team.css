@@ -1,0 +1,41 @@
+.team {
+    padding: 20px 0;
+}
+
+.team .profile {
+    width: 198px;
+    padding: 20px;
+}
+
+.team .profiles-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team .profile .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.team .profile .img-box img {
+    margin: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.team .profile h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-transform: none;
+}
+
+.team .profile h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
